@@ -1,0 +1,3 @@
+add_executable(letter_combination_bm LetterCombinationBM.cpp)
+target_link_libraries(letter_combination_bm benchmark::benchmark)
+target_include_directories(letter_combination_bm PRIVATE strings)
